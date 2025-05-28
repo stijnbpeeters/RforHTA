@@ -220,7 +220,7 @@ kable(head(mhqol_LSS), format = "html") %>%
 :::
 :::
 
-## Or if you want to have use an Interface (from Shiny): the MHQoL cooker👩‍🍳
+## Or if you want to use an Interface (from Shiny): the MHQoL cooker👩‍🍳
 
 <iframe src="https://stijnbpeeters.shinyapps.io/MHQoL-Tool/" width="100%" height="600px" style="border:none;">
 
@@ -285,12 +285,10 @@ cronbach.alpha(dimensions)
 
 ::: columns
 ::: {.column width="55%"}
-
-
 **🧠 Purpose**
 
 -   Ensure **MHQoL measures the same construct** across groups\
--   Without it, **comparisons may be biased or invalid** 
+-   Without it, **comparisons may be biased or invalid**
 
 **🔬 Invariance Levels**
 
@@ -375,8 +373,6 @@ fit_part_scalar <- cfa(model, data = df, group = "group_var",
 ::: {.column width="45%"}
 -   ✅ In R, correlation methods are available with `cor.test()` (also for pearson)
 
-
-
 📌 Example Use Cases: MHQoL vs. EQ-5D
 
 ```{r}
@@ -410,8 +406,6 @@ cor.test(x = mhqol_score, y = eq5d_score, method = "spearman")
 -   Individuals are **nested within countries**\
 -   Ignoring this would violate **independence assumptions**
 
-
-
 **🎯 Research Questions**
 
 1.  Do MHQoL dimensions predict **self-reported mental QoL (MHQoL-VAS)?**
@@ -420,12 +414,9 @@ cor.test(x = mhqol_score, y = eq5d_score, method = "spearman")
 **📐 Methodological Approach**
 
 -   Used **multilevel regression** to account for hierarchy\
-
-
 :::
 
 ::: {.column width="45%"}
-
 -   Included:
     -   Fixed effects for predictors
     -   Covariates: **age** and **gender** (*sex assigned at birth*)
@@ -437,8 +428,6 @@ cor.test(x = mhqol_score, y = eq5d_score, method = "spearman")
 
 2.  **Random Intercept + Slope Model**\
     – Both intercepts and slopes vary across countries
-
-
 
 -   **✅** Likelihood ratio test\*\* favored **random intercept only**
 :::
