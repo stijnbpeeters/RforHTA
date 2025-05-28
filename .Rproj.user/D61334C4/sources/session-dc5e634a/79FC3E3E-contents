@@ -1,0 +1,495 @@
+---
+title: "Measuring Mental Health Quality of Life in R: A Psychometric Evaluation and Standardised MHQoL Toolbox"
+title-slide-attributes:
+  data-background-size: "cover"
+  data-background-opacity: "0.5"
+subtitle: |
+  <div class="subtitle-container">
+  <img src="data/Stijn.jpg" alt="Stijn Image" class="subtitle-image">
+  <div class="subtitle-text">
+    <p>Erasmus School of Health, Policy & Management (ESHPM)</p>
+    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> s.b.peeters@eshpm.eur.nl</p>
+    <p><i class="fas fa-phone"></i> <strong>Phone:</strong>+316-34404346</p>
+  </div>
+format: 
+ revealjs:
+  logo: "data/eshpm-logo.jpg"
+  scrollable: true
+  highlight-style: github
+  slide-number: true 
+  incremental: true
+  transition: fade 
+  chalkboard: true
+  center: true
+  self-contained: true
+editor: visual
+css: styles.css
+---
+
+## 🧠 Why Standardised Scoring and Psychometric Evaluation Matter
+
+-   ✅ Validated health instruments (like **MHQoL**) are essential in health research
+-   ❌ Manual scoring is **error-prone** and inefficient
+-   Psychometric evaluation ensures:
+    -   Internal consistency
+    -   Validity (construct & convergent)
+-   ⚙️ R enables:
+    -   **Automated scoring**
+    -   **Reproducible evaluation**
+
+## 📦 What this Project Delivers
+
+-   📊 **Psychometric analysis workflow** in R
+-   Custom **R package** for:
+    -   MHQoL score recalculation
+    -   Consistent scoring logic
+-   🌐 Interactive **Shiny App** for:
+    -   User-friendly input
+    -   Automated results & visualisation
+-   🔁 Fully reproducible pipeline
+
+## ♻️ Integrated Workflow: From Data to Results
+
+1.  📄 **Collect MHQoL Responses**
+2.  ⚙️ **Recalculate Scores Using R Package or Shiny App**
+3.  🖥️ **Use Shiny App for Visual Summary**
+4.  📈 **Run Psychometric Analysis in R**
+5.  📝 **Interpret and Report Results**
+
+## ⚙️ Recalculate Scores Using R Package or Shiny App
+
+::: columns
+::: {.column width="50%"}
+📦 R Package
+
+<iframe src="https://cran.r-project.org/web/packages/MHQoL/MHQoL.pdf" width="100%" height="600px" style="border:none;">
+
+</iframe>
+:::
+
+::: {.column width="50%"}
+💻 Shiny interface
+
+<iframe src="https://stijnbpeeters.shinyapps.io/MHQoL-Tool/" width="100%" height="600px" style="border:none;">
+
+</iframe>
+:::
+:::
+
+## ⚙️ Recalculate Scores Using the MHQoL Package
+
+-   🗂️ Contains 8 function, **highlight two**:
+    -   `mhqol()`
+    -   `mhqol_LSS()`
+-   📑 One dataframe:
+    -   `mhqol_valueset()`
+-   🖥️ Shiny Tool is integrated in the package
+    -   `shiny_mhqol()`
+
+## ⚙️
+
+```{r}
+#| echo: false 
+library(readxl)
+library(tidyverse)
+
+example_data_scores <-  readxl::read_excel("data/example_data_scores.xlsx") %>%
+select(-1)
+
+example_data_text <- readxl::read_excel("data/example_data_text.xlsx") %>%
+select(-1)
+```
+
+::: columns
+::: {.column width="50%"}
+### 🧮 Input in Scores
+
+```{r}
+#| echo: false
+
+library(knitr)
+library(kableExtra)
+
+kable(head(example_data_scores), format = "html") %>%
+  kable_styling(
+    font_size = 16,
+    bootstrap_options = c("striped", "hover"),
+    full_width = FALSE
+  ) %>%
+scroll_box()
+```
+:::
+
+::: {.column width="50%"}
+### 📝 Input in Text
+
+```{r}
+#| echo: false
+
+kable(head(example_data_text), format = "html") %>%
+  kable_styling(
+    font_size = 16,
+    bootstrap_options = c("striped", "hover"),
+    full_width = FALSE
+  ) %>%
+scroll_box()
+```
+:::
+:::
+
+## Which to use? 🤔
+
+Both! 🥳
+
+## Example - Output in utilities?🤔
+
+::: columns
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| eval: true
+
+library(MHQoL)
+
+# Prepare input: 7 MHQoL dimensions
+dimensions <- example_data_scores[, c("SI", "IN", "MO", "RE", "DA", "PH", "FU")]
+
+# Calculate total utility score (Netherlands value set)
+mhqol_utility <- mhqol(
+  dimensions = dimensions,
+  country = "Netherlands",   # 🇳🇱 Default option
+  metric = "total",          # "total" or "average"
+  ignore_invalid = TRUE,     # Skip incomplete rows
+  ignore_NA = FALSE          # Stop if NAs are present
+)
+
+```
+:::
+
+::: {.column width="40%"}
+```{r}
+#| echo: false
+library(kableExtra)
+
+kable(head(mhqol_utility), format = "html") %>%
+  kable_styling(
+    font_size = 18,
+    bootstrap_options = c("striped", "hover"),
+    full_width = FALSE
+  )
+```
+:::
+:::
+
+## Example - Output in scores?🤔
+
+::: columns
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| eval: true
+
+library(MHQoL)
+
+# Prepare input: 7 MHQoL dimensions
+dimensions <- example_data_text[, c("SI", "IN", "MO", "RE", "DA", "PH", "FU")] #Input from the text dataframe
+
+# Calculate total utility score (Netherlands value set)
+mhqol_LSS <- mhqol_LSS(
+  dimensions = dimensions,
+  metric = "total",          # "total" or "average"
+  ignore_invalid = TRUE,     # Skip incomplete rows
+  ignore_NA = FALSE          # Stop if NAs are present
+)
+
+```
+:::
+
+::: {.column width="40%"}
+```{r}
+#| echo: false
+library(kableExtra)
+
+kable(head(mhqol_LSS), format = "html") %>%
+  kable_styling(
+    font_size = 18,
+    bootstrap_options = c("striped", "hover"),
+    full_width = FALSE
+  )
+```
+:::
+:::
+
+## Or if you want to have use an Interface (from Shiny): the MHQoL cooker👩‍🍳
+
+<iframe src="https://stijnbpeeters.shinyapps.io/MHQoL-Tool/" width="100%" height="600px" style="border:none;">
+
+</iframe>
+
+::: :::
+
+## 📈 The actual work starts: run the Psychometric Analysis in R
+
+::: columns
+::: {.column width="65%"}
+1.  **Internal Consistency**
+    -   Cronbach’s Alpha
+2.  **Construct Validity**
+    -   Measurement invariance test
+    -   Spearman’s Rank Correlation Coefficients
+    -   Multilevel Regression Analyses
+3.  **Convergent Validity**
+    -   Spearman’s Rank Correlation Coefficients
+:::
+
+::: {.column width="35%"}
+![](https://preview.redd.it/starting-a-new-hobby-v0-2dnsyjxmd3qa1.png?width=640&crop=smart&auto=webp&s=bbd84f2849b718c8901cdb628d9c47fa59ee892f)
+:::
+:::
+
+## Internal Consistency using the `ltm` package
+
+::: columns
+::: {.column width="40%"}
+**⚙️ How We Used It**
+
+```{r}
+#| echo: true
+#| eval: false
+
+library(ltm)
+
+# Select MHQoL dimensions (7 items)
+dimensions <- example_data_scores[, c("SI", "IN", "MO", "RE", "DA", "PH", "FU")]
+
+# Compute Cronbach’s Alpha
+cronbach.alpha(dimensions)
+```
+:::
+
+::: {.column width="60%"}
+**🧠 Why we used it?**
+
+-   Simple and **dedicated function** for Cronbach’s Alpha
+-   Integrated in a package already suited for **psychometric analysis**
+-   Output includes:
+    -   Overall alpha
+    -   **Item-total correlations**
+    -   Effect of removing each item
+-   Ideal for Likert-style or binary questionnaire items
+-   Lightweight and easy to interpret — perfect for streamlined reporting
+:::
+:::
+
+## 🔍 Measurement invariance - Why Test Measurement Invariance?
+
+::: columns
+::: {.column width="55%"}
+
+
+**🧠 Purpose**
+
+-   Ensure **MHQoL measures the same construct** across groups\
+-   Without it, **comparisons may be biased or invalid** 
+
+**🔬 Invariance Levels**
+
+1.  **Configural**: Same structure\
+2.  **Metric**: Equal loadings\
+3.  **Scalar**: Equal loadings + intercepts\
+4.  *(Optional)* **Residual**: Equal residual variances
+:::
+
+::: {.column width="45%"}
+![](https://okan.cloud/posts/2020-12-21-testing-for-measurement-invariance-in-r/mi2.jpg)
+:::
+:::
+
+-   Each step **adds constraints** and tests whether the model still fits well.
+
+## ✅ Sow we Tested it in R (lavaan)
+
+```{r}
+#| echo: true
+#| eval: false
+
+library(lavaan)
+
+# Latent model: 1 factor with 7 observed MHQoL items
+model <- '
+  MHQoL =~ SI + IN + MO + RE + DA + PH + FU
+'
+
+# 1. Configural invariance
+fit_config <- cfa(model, data = df, group = "group_var",
+                  estimator = "WLSMV", ordered = TRUE)
+
+# 2. Metric invariance (equal loadings)
+fit_metric <- cfa(model, data = df, group = "group_var",
+                  estimator = "WLSMV", ordered = TRUE,
+                  group.equal = "loadings")
+
+# 3. Scalar invariance (equal loadings + intercepts)
+fit_scalar <- cfa(model, data = df, group = "group_var",
+                  estimator = "WLSMV", ordered = TRUE,
+                  group.equal = c("loadings", "intercepts"))
+
+# Compare model fits
+anova(fit_config, fit_metric, fit_scalar)
+```
+
+## 📊 Comparing Invariance Models
+
+| Model          | CFI  | RMSEA | SRMR |
+|----------------|------|-------|------|
+| Configural     | 0.99 | 0.04  | 0.06 |
+| Metric         | 0.99 | 0.04  | 0.07 |
+| Scalar         | 0.96 | 0.10  | 0.07 |
+| Partial scalar | 0.99 | 0.03  | 0.06 |
+
+Partial scalar: free some intercepts, for example
+
+```{r}
+#| echo: true
+#| eval: false
+
+fit_part_scalar <- cfa(model, data = df, group = "group_var",
+                  estimator = "WLSMV", ordered = TRUE,
+                  group.equal = c("loadings", C("SI|T1", "IN|T2")))
+
+```
+
+## 🔗 Spearman’s Rank Correlation Coefficients
+
+::: columns
+::: {.column width="55%"}
+**🧠 Purpose**
+
+-   Assess **convergent validity** between MHQoL and related health measures
+-   **Spearman’s rank correlation** is:
+    -   Non-parametric
+    -   Based on **ranked values**
+    -   Ideal for **ordinal** or **non-normal** data
+:::
+
+::: {.column width="45%"}
+-   ✅ In R, correlation methods are available with `cor.test()` (also for pearson)
+
+
+
+📌 Example Use Cases: MHQoL vs. EQ-5D
+
+```{r}
+#| echo: true
+#| eval: false
+
+
+# Pearson
+cor.test(x = mhqol_score, y = eq5d_score, method = "pearson")
+
+# Spearman
+cor.test(x = mhqol_score, y = eq5d_score, method = "spearman")
+```
+:::
+:::
+
+## 📊 Example output correlations with MHQoL Score
+
+| Variable           | Spearman’s ρ | p-value  |
+|--------------------|--------------|----------|
+| EQ-5D LSS          | 0.62         | \< 0.001 |
+| WHO-5 Wellbeing    | 0.58         | \< 0.001 |
+| PHQ-9 (depression) | -0.55        | \< 0.001 |
+
+## Last step👣: Multilevel regression
+
+::: columns
+::: {.column width="55%"}
+**🌍 Data Structure**
+
+-   Individuals are **nested within countries**\
+-   Ignoring this would violate **independence assumptions**
+
+
+
+**🎯 Research Questions**
+
+1.  Do MHQoL dimensions predict **self-reported mental QoL (MHQoL-VAS)?**
+2.  Do EQ-5D-5L dimensions explain **mental QoL differences**?
+
+**📐 Methodological Approach**
+
+-   Used **multilevel regression** to account for hierarchy\
+
+
+:::
+
+::: {.column width="45%"}
+
+-   Included:
+    -   Fixed effects for predictors
+    -   Covariates: **age** and **gender** (*sex assigned at birth*)
+
+**🧪 Compared two model types:**
+
+1.  **Random Intercept Model**\
+    – Intercepts vary across countries
+
+2.  **Random Intercept + Slope Model**\
+    – Both intercepts and slopes vary across countries
+
+
+
+-   **✅** Likelihood ratio test\*\* favored **random intercept only**
+:::
+:::
+
+## How it was done in R
+
+```{r}
+#| echo: true
+#| eval: false
+
+library(lme4)
+
+# Random intercept model: MHQoL dimensions → MHQoL-VAS
+model1 <- lmer(
+  mhqol_vas ~ SI + IN + MO + RE + DA + PH + FU +
+  age + gender + (1 | country),
+  data = example_data_scores
+)
+
+# Random intercept + slope model (example: FU varies by country)
+model2 <- lmer(
+  mhqol_vas ~ SI + IN + MO + RE + DA + PH + FU +
+  age + gender + (FU | country),
+  data = example_data_scores
+)
+
+# Compare models
+anova(model1, model2)
+
+# Model performance
+summary(model1)
+```
+
+## ✅ Key Takeaways
+
+-   🧠 **R provides a complete psychometric workflow**, from internal consistency to measurement invariance and multilevel modeling
+
+-   📦 We used specialized packages:
+
+    -   `ltm` for **Cronbach’s Alpha**
+    -   `lavaan` for **Confirmatory Factor Analysis** and **Measurement Invariance**
+    -   `lme4` for **Multilevel Regression**
+
+-   🧰 We developed the **MHQoL R package** and **Shiny app**:
+
+    -   Standardized scoring
+    -   Enhances **reproducibility** and **ease of use**
+
+-   🎯 Together, these tools support both **rigorous evaluation** and **practical implementation** of mental health QoL measures
+
+## Any Questions?
+
+![](data/compiling.png)

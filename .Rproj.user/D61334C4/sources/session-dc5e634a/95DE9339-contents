@@ -1,0 +1,1449 @@
+---
+title: "{{< var title >}}" # DIT NOG CHECKEN!! 
+title-slide-attributes:
+  data-background-image: https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg
+  data-background-size: "cover"
+  data-background-opacity: "0.5"
+subtitle: |
+  <div class="subtitle-container">
+  <img src="Images/Stijn.jpg" alt="Stijn Image" class="subtitle-image">
+  <div class="subtitle-text">
+    <p>Health Economist</p>
+    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> s.b.peeters@eshpm.eur.nl</p>
+    <p><i class="fas fa-phone"></i> <strong>Phone:</strong>+316-34404346</p>
+  </div>
+format:
+  revealjs:
+    reference-location: "document"
+    transition: fade
+    smaller: true
+    background-image: url(https://cdn-res.keymedia.com/cms/images/ca/159/0379_638260706292671006.jpg)
+---
+
+## Algemene doelstelling 🎯
+
+Leren kijken door een 'doelmatigheids' bril
+
+<br>
+
+*Dit draagt bij aan:*
+
+::: columns
+::: {.column width="50%"}
+**Goede opleiding**
+
+-   Verwerven van algemene competenties
+-   Opbouwen CV
+:::
+
+::: {.column width="50%"}
+**Goede zorg**
+
+-   Houdbaarheid van zorg
+-   Kwaliteit van zorg
+:::
+:::
+
+## Doelstellingen
+
+-   Inzicht krijgen hoe de zorg wordt gefinancierd en welke wetten hierop van toepassing zijn
+-   Inzicht krijgen in wat doelmatigheidsonderzoek is, hoe je het kunt opzetten, uitvoeren en interpreteren
+
+## Programma
+
+| Van   | Tot   | Onderwerp                                       |
+|-------|-------|-------------------------------------------------|
+| 13:30 | 14:00 | Bekostiging en Financiering van (publieke) zorg |
+| 13:00 | 14:30 | Introductie economische evaluaties en ontwerp   |
+| 14:30 | 14:45 | Pauze                                           |
+| 14:45 | 15:15 | Groepsopdracht 1: Maken en nabespreken          |
+| 15:15 | 15:45 | Kosten, Kwaliteit van leven en Analyse          |
+| 15:45 | 16:15 | Praktijkvoorbeelden / groepsopdracht 2          |
+| 16:15 | 16:30 | Take home messages                              |
+
+## Voorbeeld: RS-virus
+
+![](Images/RS-virus-nieuws.JPG){width="130%"}
+
+## Voorbeeld: RS-virus
+
+![](Images/kabinetbesluit.JPG){width="130%"}
+
+## Voorbeeld RS-virus: Advies gezondheidsraad
+
+![](Images/Advies-gezondheidsraad.JPG){width="130%"}
+
+## Voorbeeld RS-virus: Adviesrapport gezondheidsraad
+
+<iframe src="Images/Adviesrapport.pdf" width="100%" height="600px" style="border: none;">
+
+</iframe>
+
+## Voorbeeld RS-virus: Welke vorm?
+
+![](Images/maternale-kosteneffectiviteit.JPG){width="130%"}
+
+## Voorbeeld RS-virus: Welke vorm?
+
+![](Images/Seizoensimmunisatie.JPG){width="130%"}
+
+## Voorbeeld: RS-virus: Welk vaccin?
+
+![](Images/Pavlizumab.JPG){width="130%"}
+
+## Voorbeeld: RS-virus: Welk vaccin?
+
+![](Images/nirsevimab.JPG){width="130%"}
+
+# Bekostiging en Financiering van (publieke) zorg {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## Uitgaven aan gezondheidszorg in Nederland💰
+
+-   In 2020 ruim 116 miljard Euro (bron: CBS)
+
+![](Images/Zorguitgaven.png){width="50%"}
+
+-   Zelfde ontwikkeling in andere (westerse) landen
+
+## 
+
+![](Images/Life-expectancy.png){width="130%"}
+
+## 
+
+![](Images/health_expenditure.jpg){width="130%"}
+
+## Financieringsvormen in Nederland
+
+Financiering van de zorg in NL is gebaseerd op 5 stelselwetten:
+
+-   Zvw: Zorgverzekeringswet
+-   Wlz: Wet langdurige zorg
+-   WMO: Wet Maatschappelijke Ondersteuning
+-   Jeugdwet
+-   Wet publieke gezondheid
+
+## Zorgverzekeringswet (Zvw) in het kort
+
+-   Verplichte basisverzekering voor ziektekosten
+-   Vrije keuze voor aanvullende verzekeringen (bijvoorbeeld tandartsverzekering ≥ 18 jaar)
+
+## Zvw: Basisverzekering
+
+::: columns
+::: {.column width="70%"}
+-   **Pakket**: Het basispakket wordt jaarlijks vastgesteld door de overheid
+-   **Solidariteit**: Premies zijn onafhankelijk van leeftijd of gezondheidstoestand
+-   **Dekking**: De basiverzekering dekt medisch noodzakelijke zorg zoals huisartsbezoeken, ziekenhuiszorg, wijkverpleging, kraamzorg, tandartszorg van kinderen ≤18 jaar en medicijnen
+:::
+
+::: {.column width="30%"}
+![](https://www.economielokaal.nl/wp-content/uploads/2020/04/basisverzekering.png)
+
+![](https://fenerzorg.nl/wp-content/uploads/2015/03/zorgverzekeringsw-1.png)
+:::
+:::
+
+## Zvw: Actuele ontwikkelingen
+
+-   Het basispakket wordt regelmatig gewijzigd, mede op basis van economische evaluaties
+-   In 2025 wordt bijvoorbeeld geriatrische revalidatie vaker vergoed vanuit het basispakket. De voorwaarde vervalt dat een persoon eerst in een ziekenhuis moet hebben gelegen.
+
+## Wlz in het kort
+
+::: columns
+::: {.column width="70%"}
+**Doel**: Verzekeren hele bevolking tegen risico voor **blijvend intensieve zorgbehoefte**
+
+-   Doelgroepen: Mensen met een ernstige beperking, dementie, of andere chronische ziekte
+-   Toegang: Indicatie via het CIZ(Centrum Indicatiestelling Zorg)
+
+**Zorgvormen**:
+
+-   **Verblijf in instelling**: 24/7 zorg en toezicht
+-   **Zorg thuis**: Via persoonsgebonden budget (pgb) of volledig pakket thuis (vpt)
+:::
+
+::: {.column width="30%"}
+![](https://www.middin.nl/assets/uploads/_770x440_crop_center-center_none/61383/MicrosoftTeams-image-1.webp)
+:::
+:::
+
+Ontwikkelingen:
+
+-   **Technologische innovaties**: E-health en domotica
+-   **Mantelzorg**: Groeiende rol om druk op de zorg te verlichten
+
+## WMO in het kort
+
+::: columns
+::: {.column width="70%"}
+-   **Doel**: Ondersteunen van burgers om **zelfstandig te blijven wonen** en **mee te doen in de maatschappij**
+
+-   Voor mensen met **beperkingen** door ouderdom of handicap, een chronisch psychisch probleem, moeite met verplaatsen in de woning, moeite zich lokaal te verplaatsen met een vervoersmiddel, maar ook voor **vrijwilligers en mantelzorgers**
+
+-   Verantwoordelijkheid bij **gemeenten**
+:::
+
+::: {.column width="30%"}
+![](https://www.middin.nl/assets/uploads/_770x440_crop_center-center_none/30215/Ontwerp-zonder-titel-4.webp)
+:::
+:::
+
+## Voorbeelden van WMO
+
+::: columns
+::: {.column width="70%"}
+-   Huishoudelijke hulp
+-   Begeleiding
+-   Aanpassingen in de woning vb. verhoogd toilet
+-   Vervoersvoorzieningen in de regio vb. taxibus, taxikostenvergoeding, scootmobiel
+-   Ondersteunen van vrijwilligers en mantelzorgers
+-   Hulp bij het opvoeden van kinderen
+-   Rolstoel
+-   Maaltijdservice
+-   Sociaal cultureel werk
+:::
+
+::: {.column width="30%"}
+![](https://www.actiefzorg.nl/media/images/servicegroup/2/0/2070_huishoudelijke-hulp.jpg) ![](https://www.welzorg.nl/app/uploads/2021/08/wmo-gesprek-gemeente-rotterdam.jpg)
+:::
+:::
+
+## Jeugdwet
+
+::: columns
+::: {.column width="70%"}
+-   De jeugdwet houdt in dat gemeenten de meeste zorg en hulp voor kinderen en jeugdigen voorzien
+-   Het doel van de wet is om versnippering van de zorg voor de jeugd tegen te gaan
+-   Ook zorgtaken voor kinderen en jongeren geregeld door de Zvw en Wlz
+:::
+
+::: {.column width="30%"}
+![](https://www.middin.nl/assets/uploads/_770x440_crop_center-center_none/42744/Ontwerp-zonder-titel-23.webp)
+:::
+:::
+
+## Jeugdwet
+
+**Wet regelt de verantwoordelijkheid voor**
+
+-   Preventie, ondersteuning, hulp en zorg aan kinderen en jongeren (jeugdigen) en hun ouders bij opgroei- en opvoedingsproblemen
+-   Psychische problemen en stoornissen
+
+## Wat valt wel/niet onder de Jeugdwet
+
+![](Images/Jeugdwet.png)
+
+## 
+
+![](Images/Jeugdzorg-2024.JPG)
+
+## Wet Publieke Gezondheid
+
+**Wet regelt**
+
+-   De organisatie van de openbare gezondheidszorg
+-   De bestrijding van infectieziektecrises
+-   De isolatie van personen/vervoermiddelen die internationaal gezondheidsgevaren kunnen opleveren
+-   De jeugd- en ouderengezondheidszorg
+
+::: notes
+Wet Collectieve Preventie Volksgezondheid gestart in 1989-1990. Daarvoor hadden we BaGD (wet op de basisgezondheidsdiensten). Wet Publieke Gezondheid aangepast in 2005 - decentralizatie naar gemeenten. Populatiegericht.
+:::
+
+## Wet Publieke Gezondheid
+
+**Algemene taken publieke gezondheidszorg**
+
+-   Bijdragen aan opzet, uitvoering en afstemming van preventieprogramma's met inbegrip van gezondheidsbevordering, zoals het voorkomen van alcoholmisbruik bij jongeren
+-   Het geven van prenatale voorlichting aan ouders
+
+**Jeugdgezondheidszorg**
+
+-   Actief zorgen voor vaccinaties en het op systematische wijze volgen en signaleren van gezondeidsbevorderende en -bedreigende factoren
+-   Vroegtijdige opsporing en preventie van specifieke stoornissen
+
+## Wet Publieke Gezondheid
+
+**Ouderengezondheidszorg**
+
+-   Het op systematische wijze volgen en signaleren van gezondheidsbevorderende en -bedreigende factoren.
+-   Vroegtijdig opsporing en preventie van specifieke stoornissen, bijvoorbeeld door beweegactiviteiten en sociale activiteiten
+
+**Infectieziektenbestrijding**
+
+-   Algemene preventieve maatregelen op het gebied van infectieziektenbestrijding
+
+## Wet Publieke Gezondheid
+
+-   In het basispakket JGZ staat welke activiteiten de jeugdgezondheidszorg aan elk kind in Nederland moet aanbieden. Monitoren, signaleren en screenen vormen de keren van het Basispakket JGZ
+-   De preventieve activiteiten die de JGZ levert of kan leveren voor bepaalde groepen met een specifiek risico valt soms onder andere wetgeving zoals de Jeugdwet of de Zorgverzekeringswet
+
+## Wet Publieke Gezondheid
+
+![](https://www.ncj.nl/wp-content/uploads/media-import/basispakketjgzalsverbinderschema.jpg)
+
+## 
+
+![](Images/Organisatie-gezondheidszorg.JPG)
+
+::: notes
+Dia 9 Wat is dan het verschil tussen wat de overheid doet en wat de huisarts of de specialist doet? Huisarts of specialist treden pas op als u ziek bent of klachten heeft. Ongezondheid is voor hen het uitgangspunt. Gemeenten treden op als u nog gezond bent met de bedoeling om dat zo te houden. Volksgezondheidsbeleid is bedoeld voor de hele bevolking, we bieden het u gewoon aan, u hoeft er niet naar te vragen, iedereen kan er gebruik van maken.
+
+Zo leggen gemeenten bijvoorbeeld speelveldjes aan waar kinderen veilig kunnen spelen. Dat vinden kinderen leuk en het is goed voor hun lichamelijke en motorische ontwikkeling. Ouders ontmoeten elkaar hier en dat is weer goed voor de onderlinge contacten. Zo draagt een eenvoudig speelveldje bij aan het welzijn van kinderen en hun ouders. Het beleid is dus niet reactief, als reactie op een zorgvraag van een individu die ziek is of klachten heeft, maar juist proactief, om mensen gezond te houden. De meeste voorzieningen vindt u bovendien buiten de gezondheidssector, zoals Cruijff courts in de buurt of veilige fietsroutes. En wat dacht u van werkgelegenheid: arbeid is over het algemeen genomen goed voor uw gezondheid (Burdorf, 2014; Carlier et al, 2013).
+
+Other domains are: housing conditions, poverty, low socio-economic status, education, jobs, community safety, service supply, healthy surrounding, traffic-free schools etc
+:::
+
+## ❔❓
+
+**Wat denken jullie?**
+
+-   Hoeveel per persoon per jaar aan gezondheidszorg?
+
+<br>
+
+-   Hoeveel per persoon per jaar aan volksgezondheid?
+
+::: notes
+Dia 9 Wat is dan het verschil tussen wat de overheid doet en wat de huisarts of de specialist doet? Huisarts of specialist treden pas op als u ziek bent of klachten heeft. Ongezondheid is voor hen het uitgangspunt. Gemeenten treden op als u nog gezond bent met de bedoeling om dat zo te houden. Volksgezondheidsbeleid is bedoeld voor de hele bevolking, we bieden het u gewoon aan, u hoeft er niet naar te vragen, iedereen kan er gebruik van maken.
+
+Zo leggen gemeenten bijvoorbeeld speelveldjes aan waar kinderen veilig kunnen spelen. Dat vinden kinderen leuk en het is goed voor hun lichamelijke en motorische ontwikkeling. Ouders ontmoeten elkaar hier en dat is weer goed voor de onderlinge contacten. Zo draagt een eenvoudig speelveldje bij aan het welzijn van kinderen en hun ouders. Het beleid is dus niet reactief, als reactie op een zorgvraag van een individu die ziek is of klachten heeft, maar juist proactief, om mensen gezond te houden. De meeste voorzieningen vindt u bovendien buiten de gezondheidssector, zoals Cruijff courts in de buurt of veilige fietsroutes. En wat dacht u van werkgelegenheid: arbeid is over het algemeen genomen goed voor uw gezondheid (Burdorf, 2014; Carlier et al, 2013).
+
+Other domains are: housing conditions, poverty, low socio-economic status, education, jobs, community safety, service supply, healthy surrounding, traffic-free schools etc
+:::
+
+## 
+
+::: columns
+::: {.column width="\"50%"}
+![](Images/Kosten-zorg.JPG){width="120%"}
+:::
+
+::: {.column width="\"50%"}
+![](Images/Kosten-publieke-zorg.JPG){width="105%"}
+:::
+:::
+
+## Zvw: Kosten en financiering💶
+
+-   Verzekerden van 18j\> betalen een **nominale premie (basispakket)**
+-   Naast de nominale premie is er een **inkomensafhankelijke bijdrage (basispakket)**
+-   Mensen met een laag inkomen kunnen recht hebben op **zorgtoeslag**
+-   Indien er gekozen is voor een aanvullende verzekering --\> **premie**
+
+## Zvw: Kosten en financiering💶 - nominale premie
+
+-   Gemiddeld **€1896,-** p.p p.j (2025)
+
+**Afhankelijk van**
+
+-   Gekozen verzekeraar
+
+-   Gekozen zorgverzekeringsmodel (Natura of Restitutie)
+
+-   Premiekorting vanwege vrijwillig eigen risico
+
+-   Overheid betaalt vooor jongeren \<18 jaar **€2.1 miljard** p.j.
+
+## Zvw: Kosten en financiering💶 - nominale premie
+
+![](https://www.zorgwijzer.nl/wp-content/uploads/Ontwikkeling-premie-zorgverzekering.jpg)
+
+## Zvw: Kosten en financiering💶 - Inkomensafhankelijke bijdrage
+
+-   Betalen indien je een baan hebt
+-   Jongeren \<23 jaar met een kleine baan betalen geen inkomensafhankelijke bijdrage
+-   Max geheven over een jaarsalaris van **€75.860 (in 2025)**
+-   Percentage van **6,51% (in 2025)**
+
+## Zvw: Kosten en financiering💶 - eigen risico
+
+::: columns
+::: {.column width="50%"}
+-   **Verplicht Eigen Risico**: Het eigen risico is vastgesteld op **385 euro** per jaar
+-   **Uitzonderingen**: Kosten voor de huisarts, verloskunde en kraamzorg, kinderen onder de 18 jaar en hulpmiddelen thuiszorg vallen - Vanaf 2025 max **150 euro** per behandeling maar nog wel **385 euro** in totaal
+-   EVentueel **500 euro aan vrijwillig aanvullend eigen risico**
+:::
+
+::: {.column width="50%"}
+![](https://datagraver.com/wp-content/uploads/2024/09/eigenrisico_20240915.png)
+:::
+:::
+
+## Zvw: Kosten en financiering💶 - eigen risico
+
+![](Images/eigen-risicio-artikel.png)
+
+-   Bij afschaffen eigen risico fore stijging nominale premie
+
+## Wlz: Kosten en financiering💶
+
+-   **9.65%** van je bruto salaris
+-   Maximaal geheven over een grensinkomen van **€38.441 in 2025**
+-   Een gemiddelde burger betaalt ruim **€1200** per jaar Wlz premie (na aftrek algemene heffingskorting, arbeidskorting etc.)
+-   De werkgever staat dit bedrag af aan het Fonds Langdurige Zorg
+-   Als je Wlz zorg gebruikt --\> **Inkomensafhankelijke bijdrage**
+
+Financiering:
+
+-   Via **inkomensafhankelijke premies** en een eigen bijdrage
+-   Grootste kostenpost door vergrijzing (Ongeveer 300.000 mensen maken gebruik van Wlz)
+
+## WMO en Jeugdwet: Kosten en financiering💶
+
+-   Centrale overheid geeft geld aan **gemeente fonds**
+-   Financiering niet uit premies maar uit belastingen
+-   Gemeenten betalen uit dit fonds voor de WMO
+-   Gemeenten hebben de vrijheid om hun eigen beleid te bepalen
+-   Eigen bijdrage voor zorg wordt bepaald door: de samenstelling van het huishouden, de leeftijd van de cliënt, de **gemeente** waarin je woonachtig bent (inkomen niet meer relevant in 2025)
+-   De financiering van de Jeugdwet is geregeld via het Macrobudget Jeugd
+
+## 
+
+![](Images/Nieuws-wmo.JPG)
+
+## WPG: Kosten en financiering💶
+
+Rijk: 'Systeemverantwoordelijkheid':
+
+-   Stelt prioriteiten
+-   Heeft regie bij grootschalige uitbraak van infectieziekten
+-   Verantwoordelijkehid voor vaccinatie- en screeningsprogramma's
+-   Financiering uit belastingen
+
+Gemeentelijke verantwoordelijkheid:
+
+-   Veronderstelling: gemeenten beste in staat tot intersectorale (geïntegreerde) aanpak
+-   De gemeenteraad kan een bijdrage heffen voor het verrichten van werkzaamheden (niet voor jeugd- en ouderengezondheidszorg)
+
+## 
+
+![](Images/Verantwoordelijkheid-in-beeld.png)
+
+## Zorg duurder in 2025?📈
+
+In 2025:
+
+-   Hogere zorgpremie (ruim +11 euro in 2025)
+-   Zorgtoeslag gaat ongeveer 10 euro omhoog
+
+![](Images/CPB.JPG)
+
+## 
+
+<iframe src="https://www.zorgwijzer.nl/zorgverzekering-2020/zorgkosten-naar-11000-euro-per-nederlander-in-2040" width="100%" height="600px" style="border: none;">
+
+</iframe>
+
+## Info schematisch weergegeven
+
+<iframe src="https://app.zwdz.nl/geldstromen-zvw" width="100%" height="600px" style="border: none;">
+
+</iframe>
+
+https://app.zwdz.nl/geldstromen-zvw
+
+# Introductie economische evaluties en ontwerp📊 {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## Jeugdgezondheidszorg in Nederland
+
+-   JGZ kost per jaar: **433 miljoen euro**
+-   Opbrengsten JGZ-interventies: **5.6 miljard**
+-   Jaarlijks levert iedere euro die geïnvesteerd wordt in JGZ elf euro op!
+-   Per jaar 200.000 gewonnen gezonden levensjaren door JGZ
+
+## 
+
+![](Images/Gezondheidseffecten.JPG)
+
+## 
+
+![](Images/Gehoorverlies.png)
+
+![](Images/hielprik.png)
+
+## 
+
+![](Images/interventies.png)
+
+![](Images/netto%20resultaat.png)
+
+## Inhoud
+
+::: {.fragment .highlight-red}
+-   Wat is HTA, doelmatigheid en economische evaluatie
+:::
+
+-   Ontwerpen van economische evaluatie
+
+## Wat is doelmatigheid?
+
+::: columns
+::: {.column width="60%"}
+Een behandeling is **doelmatig** of **efficiënt** als de ***betreffende inspanningen*** en ***uitgaven*** daadwerkelijk bijdragen aan de realisatie van het beoogde doel en ***de kosten*** in verhouding staan tot de ***opbrengsten***.
+:::
+
+::: {.column width="40%"}
+![](Images/doelmatigheid.jpg){width="100%"}
+:::
+:::
+
+## Wat is een economische evaluatie?
+
+![](Images/economische%20evaluatie.jpg)
+
+## 
+
+![](Images/economische%20evaluatie%202.jpg)
+
+## Draait het bij doelmatigheid en kosteneffectiviteit van de zorg alleen om kosten?
+
+::: {.fragment .highlight-red}
+::: {.fragment .fade-in}
+::: {style="font-size: 200%;"}
+NEE!!
+:::
+:::
+:::
+
+## Economische evaluaties: Waarom?
+
+-   Enerzijds **toename kosten gezondheidszorg**
+-   Anderzijds toename in ontwikkelingen: meer nieuwe behandelingen, nieuwe + vaak kostbae procedures
+
+Spanningsveld klinische en financiële mogelijkheden: onmogelijk om alle interventies aan te bieden --\> **Schaarste** 
+
+-   Budgettering in de gezondheidszorg; eerst DBC nu DOT 
+-   ZiN: Kosteneffectiviteit criterium bij basispakket.
+
+## Economische evaluaties: Waarom?
+
+**Maar ook!**
+
+-   Onzinnige zorg door routines (lab. testen)
+-   Dubbelop zorg (controle door huisarts en specialist)
+-   Handelingen zonder medisch inhoudelijk argument
+-   **Wetgeving** (Kostenbeheersing; doelmatige zorg)
+-   **Wetenschappeljke onderbouwing** (Beleidsmakers + subsidieverstrekkers)
+
+## Inhoud
+
+-   Wat is HTA, doelmatigheid en economische evaluatie
+
+::: {.fragment .highlight-red}
+-   Ontwerpen van economische evaluatie
+:::
+
+## 1. Wat is het doel van EE?🎯
+
+***Beleidsmakers te informeren welke gezondheidszorgbesluiten het beste gemaakt kunnen worden voor welke specifieke gezondheidszorgbehandeling***
+
+Wat is het probleem? 
+
+-   Vergoeding voor nieuwe behandeling 
+-   Opname van deze nieuwe behandeling in medische richtlijn 
+-   Gebrek aan kennis
+
+## 2. Wie neemt de beleidsbeslissing?🤷
+
+**Wie zijn de primaire gebruikers?**
+
+-   Overheid (Gemeente/CvZ/ZIN)
+-   Gezondheidszorginstellingen (ziekenhuis of huisarts)
+-   Producenten (hulpverleners en farmaceuten)
+-   Betalers (patient, verzekeringsmaatschappij)
+-   Consumenten (patient (vereniging)
+
+## 3. Welk perspectief?🔎
+
+**Maatschappelijk**: alle kosten en effecten (relevant voor patiënten, familie, zorgaanbieders en overheid) Breder maatschappelijk: ook intersectorale kosten en effecten
+
+**Van de beleidsmakers:**
+
+-   Gezondheidszorg: alleen kosten en effecten vanuit gezondheidszorg 
+-   Zorgverzekeraars: kosten en effecten relevant voor de zorgverzekeraar
+-   Zorgaanbieder: kosten en effecten relevant voor particuliere instelling
+-   Patiënt & familie: kosten en effecten relevant voor de patiënt of zijn familie
+
+## 4. Welke tijdshorizon?⏲️
+
+**De periode waarin de analyse wordt uitgevoerd**
+
+-   Om alle belangrijkste kosten en effecten te meten
+-   Om alle belangrijke verschillen tussen de verschillende gezondheidszorgprogramma‘s te kunnen meenemen
+
+## 5. Welke interventie? ⚕️
+
+**Interventie moet duidelijk omschreven worden**
+
+-   Wie geeft de zorg?
+-   Wat wordt er gedaan?
+-   Aan wie?
+-   Waar?
+-   Hoe vaak?
+-   Hoe lang?
+-   Wat zijn de te (verwachte) resultaten?
+
+## 6. Controle interventie? ⚕️
+
+**Controle groep moet duidelijk beschreven worden**
+
+-   Niks doen
+-   Meest kosten-effectieve alternatief
+-   Placebo
+-   Standaard zorg / Care as usual
+
+## 7. Wat is de doelpopulatie? 🧑‍🤝‍🧑
+
+**Voor welke personen was de interventie bedoeld?**
+
+-   Definieer leeftijd, geslacht, ziekte, land, risicoprofiel en co-morbiditeiten\
+-   Identificeer evt. de subgroepen
+
+## 8. Gevolg: Welk type economische evaluatie?📔
+
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+| Typen                  | Kosten meting    | Effect meting                            | Wat                                         |
++========================+==================+==========================================+=============================================+
+| **KEA**                | Monetaire waarde | Natuurlijke eenheden                     | Bloeddruk, depressie, Pijnvrije dagen, etc. |
+|                        |                  |                                          |                                             |
+| (kosten-effectiviteit) |                  |                                          |                                             |
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+| **KUA**                | Monetaire waarde | Voor kwaliteit gecorrigeerde levensjaren | Utilitieit (0 en 1) QALYs                   |
+|                        |                  |                                          |                                             |
+| (kosten-utiliteit)     |                  |                                          |                                             |
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+| **KBA**                | Monetaire waarde | Monetaire waarde                         | Euro                                        |
+|                        |                  |                                          |                                             |
+| (kosten-baten)         |                  |                                          |                                             |
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+
+## 9. Gevolg: Model- of trial-based EE📔
+
+**Trial-based economische evaluatie (piggy-back)**
+
+-   ***Genereren van bewijs***: dataverzameling gebaseerd op patientendata
+-   Meestal korte termijn
+-   Meestal beperkt aantal studie-armen
+
+**Model-based economische evaluatie**
+
+-   ***Synthese van bewijs***: datacollectie vanuit meerdere bronnen (patienten, literatuur, expert opinion)
+-   Langetermijn mogelijk
+-   Meestal onbeperkt aantal studie-armen
+
+**Of combinatie van beide!**
+
+## 10. Wat is de conclusie en is deze conclusie voldoende betrouwbaar?📑
+
+**Wat is de conclusie van de studie?**
+
+-   Wat is het gevonden effect?
+-   Wat is de impact van de interventie op de kosten?
+-   Wat is de ICER en hoe interpreteren we die?
+
+**Zijn er grote beperkingen waar rekening mee gehouden dient te worden? Denk bijv. aan:**
+
+-   Zijn er problemen met het perspectief?
+-   Is de follow-up voldoende?
+-   Is er veel onzekerheid m.b.t. de ICER?
+-   Zijn alle relevante effecten in kaart gebracht?
+-   Is de controle conditie representatief genoeg?
+
+## Vragen?
+
+![](Images/question.png)
+
+## Pauze
+
+![](https://blog.ruggengraat.com/wp-content/uploads/2020/01/break.jpg)
+
+## Groepsopdracht 1: Ontwerp EE
+
+***https://bit.ly/Opdracht-1***
+
+![](Images/QR.PNG)
+
+## Groepsopdracht 1: Ontwerp EE
+
+::: columns
+::: {.column width="70%"}
+1.  Wat is het doel van de EE? 🎯
+2.  Wie neemt de beleidsbeslissing? 🤷
+3.  Welk perspectief? 🔎
+4.  Welke tijdshorizon? ⏲️
+5.  Welke interventie? ⚕️
+6.  Welke controle interventie? ⚕️
+7.  Wat is de doelpopulatie? 🧑‍🤝‍🧑
+8.  **Gevolg:** Welk type economische evaluatie? 📔
+9.  **Gevolg:** Model of trial-based 📔
+10. Wat is de conclusie en is deze conclusie voldoende betrouwbaar? 📑
+:::
+
+::: {.column width="30%"}
+<button id="start-timer" class="custom-button">
+
+Start 20:00 Timer
+
+</button>
+
+::: {#countdown style="font-size: 2em; margin-top: 20px;"}
+:::
+
+```{=html}
+<script>
+let countdownElement = document.getElementById('countdown');
+let button = document.getElementById('start-timer');
+let countdown;
+
+button.addEventListener('click', function() {
+  let time = 1200; // 3 minutes in seconds
+  countdown = setInterval(function() {
+    let minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+    countdownElement.innerHTML = minutes + ':' + seconds;
+    time--;
+
+    if (time < 0) {
+      clearInterval(countdown);
+      countdownElement.innerHTML = "Time's up!";
+    }
+  }, 1000);
+});
+</script>
+```
+:::
+:::
+
+::: notes
+Probeer samen met groepje van 4 personen de vragen op bladzijde 9 te beantwoorden 20 min de tijd
+:::
+
+# Groepsopdracht 1: Nabespreking {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## 1. Wat is het doel van de EE? 🎯
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**Om beleidsmakers te informeren over welke gezondheidszorgbesluiten het beste gemaakt kunnen worden voor welke specifieke gezondheidszorg behandeling**
+
+Wat is het probleem?
+
+-   Vergoeding voor nieuwe behandeling?
+-   Opname van deze behandeling in medische richtlijn
+-   Gebrek aan kennis
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Kosteneffectiviteit van de interventie
+
+<br>
+
+Beleidsbepalers informeren
+:::
+:::
+
+## 2. Wie neemt de beleidsbeslissing? 🤷
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**Wie zijn de primaire gebruikers?**
+
+-   Overheid (CvZ/ZIN)
+-   Gezondheidszorginstellingen (ziekenhuis of huisarts)
+-   Producenten (hulpverleners en farmaceuten)
+-   Betalers (patiënt, verzekeringsmaatschappij)
+-   Consumenten (patiënt (vereniging))
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Er kunnen verschillende gebruikers zijn:
+
+<br>
+
+Bijvoorbeeld
+
+-   Overheid (ZiN)
+-   Huisartsen
+-   GGDen
+:::
+:::
+
+## 3. Welk perspectief? 🔎
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**Maatschappelijk**: alle kosten en effecten (relevant voor patiënten, familie, zorgaanbieders en overheid) Breder maatschappelijk: ook intersectorale kosten en effecten
+
+**Van de beleidsmakers:**
+
+-   Gezondheidszorg: alleen kosten en effecten vanuit gezondheidszorg Zorgverzekeraars: kosten en effecten relevant voor de zorgverzekeraar
+-   Zorgaanbieder: kosten en effecten relevant voor particuliere instelling
+-   Patiënt & familie: kosten en effecten relevant voor de patiënt of zijn familie
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Welk perspectief?
+
+<br>
+
+Is het gebruikte perspectief voldoende?
+:::
+:::
+
+## 4. Welke tijdshorizon?⏲️
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**De periode waarin de analyse wordt uitgevoerd**
+
+-   Om alle belangrijkste kosten en effecten te meten
+-   Om alle belangrijke verschillen tussen de verschillende gezondheidszorgprogramma‘s te kunnen meenemen
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Korte termijn
+
+<br>
+
+73 weken
+:::
+:::
+
+## 5. Welke interventie? ⚕️
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**Interventie moet duidelijk omschreven worden**
+
+-   Wie geeft de zorg?
+-   Wat wordt er gedaan?
+-   Aan wie?
+-   Waar?
+-   Hoe vaak?
+-   Hoe lang?
+-   Wat zijn de te (verwachte) resultaten?
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+-   Tailored print communication
+-   Telephone motivational interviewing
+-   Combination of print & telephone
+:::
+:::
+
+## 6. Controle interventie? ⚕️
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**Controle groep moet duidelijk beschreven worden**
+
+-   Niks doen
+-   Meest kosten-effectieve alternatief
+-   Placebo
+-   Standaard zorg / Care as usual
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Er wordt niks gedaan bij de controle groep (pas na follow-up)
+
+<br>
+
+Wat vinden we hier van?
+:::
+:::
+
+## 7. Wat is de doelpopulatie? 🧑‍🤝‍🧑
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**Voor welke personen was de interventie bedoeld?**
+
+-   Definieer leeftijd, geslacht, ziekte, land, risicoprofiel en co-morbiditeiten\
+-   Identificeer evt. de subgroepen
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Volwassenen van 45-70 jaar
+:::
+:::
+
+## 
+
+::: {.columns style="display: flex;"}
+::: {.column width="60%"}
+**8. Gevolg: Welk type economische evaluatie?📔**
+
+<br>
+
+**9. Gevolg: Model of trial based EE?📔**
+:::
+
+::: {.column width="40%" style="background-color: lightblue; padding: 10px;"}
+**Voorbeeld**
+
+Kosten-effectiviteit analyse (KEA)
+
+<br>
+
+En kosten-uitliteitsanalyse (KUA)
+
+<br>
+
+Trial-base economische evaluatie (piggy-back)
+:::
+:::
+
+## 10. Wat is de conclusie en is deze conclusie voldoende betrouwbaar?📑
+
+![](Images/Conclusie-opdracht-1.png)
+
+## 10. Wat is de conclusie en is deze conclusie voldoende betrouwbaar?📑
+
+![](Images/Fig-conclusie-opdr-1.png)
+
+# Kosten {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## Kosten formule 📝
+
+$$
+C = Q * P
+$$
+
+C = Kosten (**Stap 1: Identificatie**)
+
+Q = Kwantiteit (**Stap 2: meten**)
+
+P = Prijs (**Stap 3: waarderen**)
+
+## Stap 1: Identificatie 🔎
+
+**Doel** is rekening houdend met de ziekte en de interventie om te bepalen **welke** relevante **kosten of categorieën** moeten worden meegenomen
+
+<br>
+
+Met ander woorden: welke kosten zijn relevant voor een ’patiënt\` en zijn/haar naasten
+
+## Kostencategorieën: Drummond
+
+:::{.columns}
+::: {.column width="50%"}
+**Gezondheidszorg**
+
+-   ziekenhuis
+-   verpleeghuis
+-   huisarts
+-   beschermde woonvormen
+-   geneesmiddelen op recept
+:::
+::: {.column width="50%"}
+**Patiënt & familie**
+
+-   eigen bijdrage
+-   reiskosten
+-   verloren vrije tijd
+-   productieverlies
+-   betaalde hulp
+-   aanpassingen in huis
+
+**Buiten gezondheidszorg** 
+
+-   Justitie 
+-   Educatie 
+-   Maatschappelijk werk
+:::
+:::
+
+## Belangrijk Reikwijdte/Perspectief
+
+-   De vraag wiens kosten in de evaluatie worden meegenomen
+-   Diverse perspectieven mogelijk variërend van zeer beperkt (patiënten-, zorgaanbieder-) tot alles omvattend (maatschappelijk)
+-   Voorkeur (breder) maatschappelijk perspectief in economische evaluatie
+-   Tijdshorizon
+
+## Stap 2: Meten 📏
+
+**Doel** is het meten (in getallen) van volumina **(aantal dagen, contacten, uren)**, zorg, of ander gebruik van voorzieningen **(zelfzorg, aanpassingen in huis, hulpmiddelen)**
+
+## Meting
+
++------------------------------------+---------------------+----------------------------------------------+
+| Data bron                          | Voordeel            | Nadeel                                       |
++====================================+=====================+==============================================+
+| **Kostendagboek**                  | -   Prospectief     | -   Tijdrovend                               |
+|                                    |                     |                                              |
+|                                    | -   Alle informatie |                                              |
++------------------------------------+---------------------+----------------------------------------------+
+| **Kostenvragenlijst / interviews** | -   Alle informatie | -   Retrospectief (recall bias?)             |
+|                                    |                     |                                              |
+|                                    | -   Niet tijdroven  |                                              |
++------------------------------------+---------------------+----------------------------------------------+
+| **Databases**                      | -   Prospectief     | -   Incomplete informatie (beschikbaarheid?) |
+|                                    |                     |                                              |
+|                                    | -   Niet tijdrovend |                                              |
++------------------------------------+---------------------+----------------------------------------------+
+
+## Stap 3: Waarderen van de kosten 📊
+
+**Zorgkosten en overige kosten**
+
+-   Richtlijn
+
+## Stap 3: Waarderen van de kosten 📊
+
+<iframe src="Images/Kostenhandleiding.pdf" width="100%" height="600px" style="border: none;">
+
+</iframe>
+
+## Samenvattend
+
+![](Images/Samenvattend.JPG)
+
+## Vragen?!!
+
+![](Images/Vragen-kosten.jpg)
+
+# Uitkomsten (kwaliteit van leven) {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## 8. Gevolg: Welk type economische evaluatie?📔
+
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+| Typen                  | Kosten meting    | Effect meting                            | Wat                                         |
++========================+==================+==========================================+=============================================+
+| **KEA**                | Monetaire waarde | Natuurlijke eenheden                     | Bloeddruk, depressie, Pijnvrije dagen, etc. |
+|                        |                  |                                          |                                             |
+| (kosten-effectiviteit) |                  |                                          |                                             |
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+| **KUA**                | Monetaire waarde | Voor kwaliteit gecorrigeerde levensjaren | Utilitieit (0 en 1) QALYs                   |
+|                        |                  |                                          |                                             |
+| (kosten-utiliteit)     |                  |                                          |                                             |
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+| **KBA**                | Monetaire waarde | Monetaire waarde                         | Euro                                        |
+|                        |                  |                                          |                                             |
+| (kosten-baten)         |                  |                                          |                                             |
++------------------------+------------------+------------------------------------------+---------------------------------------------+
+
+## Uitkomsten: Meten of waarderen?
+
+**Meten** voor kosteneffectiveitsanalyse
+
+-   klinische / gezondheidsuitkomsten (bloeddruk)
+-   Depressie-vrije dagen
+-   Gezondheidsprofielen
+
+**Meten en waarderen**: voor kostenutiliteitsanalyse
+
+-   Voor kwaliteit gecorrigeerde levensjaren (QALYs)
+-   Kwaliteit van leven (EQ-5D-5L)  waarde in getal, uitgedrukt in utiliteiten of QALYs
+
+## Kwaliteit van leven (KvL)
+
+“Gezondheidsstatus van kompleet fysiek, mentaal en sociaal welbevinden en niet alleen de afwezigheid van ziekte” (WHO, 1948)
+
+<br>
+
+“kwaliteit van leven/welbevinden, geluk beleven, genieten, ervaren gezondheid, lekker in je vel zitten, levenslust, balans’’ (Huber, 2012)
+
+## Meten KvL
+
+**Generieke instrumenten** Beschrijvend: Gezondheidsprofielen
+
+-   Direct: Visual Analogue Scale (VAS)
+-   Indirect: EQ-5D-5L, WHO-QoL, SF-36
+
+## Van health state naar utiliteit
+
+-   Stap 1: beschrijving (meten) van gezondheid in verschillende dimensies (KvL instrument)
+-   Stap 2: waardering, een getal voor gezondheid --\> utiliteiten: tussen 0 en 1
+
+**Utiliteit** is dus eigenlijk kwaliteit van leven uitgedrukt in een getal waarbij
+
+-   0 staat voor dood
+-   1 voor volledig gezond
+-   Lager dan 0 voor erger dan dood
+
+## Indirect: EQ-5D-5L items
+
+::: columns
+::: {.column width="70%"}
+![](Images/Vragen-eq5d.JPG)
+:::
+
+::: {.column width="30%"}
+![](Images/Voorbeeld-CVA.JPG)
+:::
+:::
+
+## Welke KvL instrument kies je?
+
+-   Verwachte impact van de behandeling op de ziekte en KvL
+-   Betrouwbaarheid en validiteit
+-   Tijdinvestering voor de invuller
+-   Eerder onderzoek
+
+## KUA (kosten-utiliteit) --\> van utiliteit naar QALYs
+
+![](Images/QALY.png)
+
+## Van utiliteit naar QALY
+
+$$
+QALY(Quality \ Adjusted \ Life \ Years)=Aantal \ gewonnen \ levensjaren \ * \ Correctie \ voor \ utiliteiten
+$$
+
+::: notes
+de QALY komt overeen met het aantal levensjaren vermenigvuldigd door een correctiefactor voor de kwaliteit van die levensjaren (de utiliteit). De factor bedraagt 1 bij het zich volledig gezond voelen en tussen 0 en 1 bij verminderde levenskwaliteit. Eventueel kan voor een toestand die subjectief "erger dan dood zijn" is een negatieve factor gelden.
+:::
+
+## Van utiliteit naar QALY: voorbeeld
+
+$$ 
+QALYs =Jaren*Waarde (utiliteiten) 
+$$
+
+-   Interventie A: 25 jaren \* 0.7 = 17.5
+-   Interventie B: 25 jaren \* 0.8 = 20.0
+
+## 
+
+![](Images/QALYs-example.JPG)
+
+## ❓❔❓❔
+
+**Waarom is de QALY-aanpak zo handig voor beleidsmakers?**
+
+# Analyse, interpretatie en bruikbaarheid {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## 
+
+![](Images/economische%20evaluatie%202.jpg)
+
+## Incrementele kosten-effectiviteitsratio (IKER)
+
+$$
+IKER=   \frac{Kosten    \ B   -   Kosten \    A}{Uitkomstmaat  \ B      - Uitkomstmaat    \   A}
+$$
+
+## Bereken de IKUR van de volgende interventie
+
+:::{.r-stack}
+![](Images/Voorbeeld-IKUR.jpg)
+
+:::{.fragment .fade-in}
+![](Images/Voorbeeld-IKUR-antwoord.png)
+:::
+:::
+
+## Hoevel is een QALY waard?
+
+![](Images/Waarde-QALY.png)
+
+Bron: ZiNL Kosteneffectiviteit in de praktijk, 2015
+
+## 
+
+![](Images/CE-ratio.png)
+
+## 
+
+![](Images/CE-plane.JPG)
+
+## 
+
+![](Images/CE-PLANE-2.jpg)
+
+## 
+
+![](Images/CE-PLANE-3.jpg)
+
+## Sensitiviteit
+
+-   Sensitiviteit is rekening houden met onzekerheid in de analyse
+-   Bijv. steekproef variatie (bij klinisch onderzoek vaak 95% betrouwbaarheidsinterval)
+-   Dat doen we bij economische evaluaties met bootstrappen
+
+## Bootstrapping
+
+![](https://www.bootstrappers.co.za/wp-content/uploads/2020/11/bootstrap-funny.jpg){width="300%"}
+
+## Principes van bootstrappen
+
+::: {style="display: flex; align-items: center; justify-content: center;"}
+<!-- First Image -->
+
+<img src="Images/image1-bootstrap.jpg" alt="Image 1 Bootstrap" style="width: 150px; height: auto;"/>
+
+<!-- Arrow -->
+
+[→]{.fragment style="margin: 0 20px; font-size: 2rem; cursor: pointer;"}
+
+<!-- Second Image -->
+
+<img src="Images/image2-bootstrap.jpg" alt="Image 2 Bootstrap" class="fragment" style="width: 180px; height: auto;"/>
+
+<!-- Arrow -->
+
+[→]{.fragment style="margin: 0 20px; font-size: 2rem; cursor: pointer;"}
+
+<!-- Third Image -->
+
+<img src="Images/image3-bootstrap.jpg" alt="Image 3 Bootstrap" class="fragment" style="width: 155px; height: auto;"/>
+
+<!-- Arrow -->
+
+[→]{.fragment style="margin: 0 20px; font-size: 2rem; cursor: pointer;"}
+
+<!-- Fourth Image -->
+
+<img src="Images/image4-bootstrap.jpg" alt="Image 4 Bootstrap" class="fragment" style="width: 160px; height: auto;"/>
+
+<!-- Arrow -->
+
+[→]{.fragment style="margin: 0 20px; font-size: 2rem; cursor: pointer;"}
+
+<!-- Fifth Image -->
+
+<img src="Images/image5-bootstrap.jpg" alt="Image 5 Bootstrap" class="fragment" style="width: 170px; height: auto;"/>
+:::
+
+## 
+
+![](Images/CEplane-bootstrap.JPG)
+
+## 
+
+![](Images/CEplane-bootstrap2.JPG)
+
+## 
+
+![](Images/CEAC.JPG)
+
+## 
+
+![](Images/CEplane-scenarios.png)
+
+Voor welke scenario’s is het duidelijk/onduidelijk welk alternatief het beste is?
+
+## Vragen
+
+![](Images/Vragen.png)
+
+# Toepassing: Wat zouden jullie kiezen?{background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## Wat is de beste behandeling?
+
+| Treatment | Budget impact | QALYs gained |
+|-----------|---------------|--------------|
+| A         | 4 mln EUR     | 200          |
+| B         | 10 mln EUR    | 400          |
+| C         | 4 mln EUR     | 120          |
+| D         | 2 mln EUR     | 60           |
+| E         | 10 mln EUR    | 200          |
+| F         | 4 mln EUR     | 40           |
+
+Budget impact: Totale benodigde zorgbudget om de behandeling aan te bieden bij de patiënten binnen NL
+
+## Wat is de beste behandeling?
+
+| Treatment | Budget impact | QALYs gained |
+|-----------|---------------|--------------|
+| A         | 4 mln EUR     | 200          |
+| B         | 10 mln EUR    | 400          |
+| C         | 4 mln EUR     | 120          |
+| D         | 2 mln EUR     | 60           |
+| E         | 10 mln EUR    | 200          |
+| F         | 4 mln EUR     | 40           |
+
+We hebben 20 miljoen: Welke behandeling is het meest kosteneffectief?
+
+## Wat is de beste behandeling?
+
+| Treatment | Budget impact | QALYs gained | Kosten per QALY |
+|-----------|---------------|--------------|-----------------|
+| A         | 4 mln EUR     | 200          | 20.000          |
+| B         | 10 mln EUR    | 400          | 25.000          |
+| C         | 4 mln EUR     | 120          | 33.333          |
+| D         | 2 mln EUR     | 60           | 33.333          |
+| E         | 10 mln EUR    | 200          | 50000           |
+| F         | 4 mln EUR     | 40           | 100000          |
+
+We hebben 20 miljoen: Welke behandeling is het meest kosteneffectief?
+
+## Wat is de beste behandeling
+
+::: columns
+::: {.column width="65%"}
+A.  Niet levensverlengend maar wel grote winst in kwaliteit van leven (bijv. behandeling slaapapneu).
+B.  Weinig gezondheidswinst per patient maar wel een grote populatie (bijv. hooikoorts).\
+C.  Palliative zorg
+D.  Geen andere behandeling beschikbaar (bijv. MS).
+E.  Ernstige ziekte onder kinderen
+F.  Hele zeldzame aandoening met maar een paar patiënten in Nederland per jaar.
+:::
+
+::: {.column width="35%"}
+![](Images/Voorbeeld-kosteneffectiviteit.png)
+:::
+:::
+
+## Wat is de beste behandeling?
+
+-   Er spelen meer aspecten dan puur kosteneffectiviteit
+-   Het zorgbudget is beperkt dus het is noodzakelijk om te blijven kijken naar kosteneffectiviteit
+
+# Wat voorbeelden {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## 
+
+![](Images/Alcoholverbruik.png)
+
+## 
+
+![](Images/Baten-alcohol.png)
+
+## 
+
+![](Images/Filet-americain.png)
+
+## 
+
+![](Images/Rokers.png)
+
+## 
+
+![](Images/Rokers-scenarios.png)
+
+## 
+
+![](Images/Rokers-scenarios1.png)
+
+## 
+
+![](Images/Suikertaks.png)
+
+# Take home messages {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+## Take home messages
+
+Financering van de zorg is in NL gebaseerd op 5 stelselwetten:
+
+-   Zorgverzekeringswet
+-   Wet langdurige zorg
+-   Wet maatschappelijke ondersteuning
+-   Jeugdwet
+-   Wet publieke geozndheid
+
+## Stel voor dat je een nieuw onderzoek wil opzetten:
+
+-   **Niet slim** om geen economische evlautie erbij uit te voeren
+-   Wel economische evaluatie doen is goed voor de (financiële) duurzaamheid van de interventie
+-   Betrek een **HTA expert** vanaf het begin!
+
+## Stel voor dat je een nieuw onderzoek wil opzetten:
+
+-   **Voorkeur:** Volledige economische evaluatie: zowel kosten en effecten van interventie en controle groep meenemen
+-   Beschrijf: doel, doelpopulatie, perspectief, tijdshorizon, type interventie en controle behandeling, studiepopulatie
+-   Definieer ook type economische evaluatie en aanpak
+
+## Stel voor dat je een nieuw onderzoek wil opzetten:
+
+::: columns
+::: {.column width="50%"}
+![](https://boommanagement.nl/wp-content/uploads/2020/06/Vragenlijsten.jpg)
+:::
+
+::: {.column width="50%"}
+-   Meenemen vragen gebruik voorzieningen
+-   Gebruik gestandariseerde vragenlijsten
+-   Formule = $$ C = Q * P $$
+:::
+:::
+
+## Stel voor dat je een nieuw onderzoek wil opzetten: KvL
+
+-   KUA: generiek KvL: waarderend indirect: EQ-5D-5L of SF-36
+-   Utiliteit: 0: dood en 1: volledig gezond
+-   QALY: Aantal gewonnen levensjaren X correctie voor utiliteiten
+
+## Take home messages: analyse en interpretatie
+
+-   **Ben kritisch!**
+-   Heel veel mogelijkheden tot bias in economische evaluatie
+-   Niet immoreel maar een noodzakelijk kwaad!
+
+## Basis literatuure ontwerp economische evaluaties
+
+-   Chapter 1: Basic types of economic evaluation. In: Drummond M, Sculpher M, Torrance G, O’Brien B, Stoddart G. Methods for the economic evaluation of health care programmes. Oxford University Press, July, 2005.
+-   Chapter 8: Economic evaluation using patient-level data. In: Drummond M, Sculpher M, Torrance G, O’Brien B, Stoddart G. Methods for the economic evaluation of health care programmes. Oxford University Press, July, 2005
+-   Drummond M, Sculpher M. Common methodological flaws in economic evaluations. Med-Care. 2005 Jul; 43(7 Suppl): 5-14.
+
+## Basis literatuur: Kosten
+
+-   Chapter 4: Cost analysis. In: Drummond M, Sculpher M, Torrance G , O’Brien B, Stoddart G. Methods for the economic evaluation of health care programmes. Oxford University Press, July, 2005. evaluation of health care programmes. Oxford University Press, July, 2005.
+-   Johns B, Baltussen R, Hutubessy R. Programme costs in the economic evaluation of health interventions. Cost Eff Resour Alloc. 2003 Feb 26;1(1):1.
+-   Byford S, Raftery J. Economics notes: Perspectives in economic evaluation. BMJ, 1998. 316(7143), 1529-1530.
+-   Koopmanschap M, Burdorf A, Jacob K, Meerding WJ, Brouwer W, Severens H. Measuring productivity changes in economic evaluation: setting the research agenda. Pharmacoeconomics. 2005; 23(1): 47-54.
+-   Koopmanschap MA, van Exel NJA, van den Berg B, Brouwer WBF. The valuation of informal care in economic evaluation. PharmacoEconomics 2008;26(4):269-80
+-   Hakkaart - van Roijen, L., Peeters, S., Kanters, T., van Baal, P., Brouwer, W., Drost, R., Evers, S. M. A. A., van Exel, J., Reckers-Droog, V., Tannaoui, N.-E., Thielen, F., & Wijnen, B. (2024). Kostenhandleiding voor economische evaluaties in de gezondheidszorg: Methodologie en Referentieprijzen. (Herziene versie 2024 ed.).
+
+## Basis literatuur: Kwaliteit van leven
+
+-   Chapter 6: Cost-Utility Analysis. In: Drummond M, Sculpher M, Torrance G , O’Brien B, Stoddart G. Methods for the economic evaluation of health care programmes. Oxford University Press, July, 2005.
+-   Green, C. Valuing Health-Related Quality of Life: A Review of Health State Valuation Techniques. Pharmacoeconomics, 2000, 17, 2, 151-166
+-   Hays RD, Woolley JM. The concept of clinically meaningful difference in health-related quality-of-life research. How meaningful is it? Pharmacoeconomics. 2000 Nov; 18(5): 419-23.
+-   Torrance GW, Furlong W, Feeny D. Health utility estimation. Expert review of pharmaco-economics & outcome research, 2002, 2,2, 99-108.
+-   Ubel PA, Richardson J, Menzel P. Societal value, the person trade-off, and the dilemma of whose values to measure for cost-effectiveness analysis. Health-Econ. 2000 Mar; 9(2): 127-36.
+-   Ubel PA, Loewenstein G, Jepson C. Whose quality of life? A commentary exploring discrepancies between health state evaluations of patients and the general public. Qual-Life-Res. 2003 Sep; 12(6): 599-607.
+
+## Bedankt voor jullie tijd! 🎉 {background-image="https://thumbs.dreamstime.com/b/medical-tech-science-ai-health-technology-surgical-doctor-telehealth-telemedicine-iot-global-healthcare-service-210434732.jpg" background-size="cover" background-opacity="0.5"}
+
+<br>
+
+<div style="text-align: center; padding: 20px;">
+
+<h3 style="margin-bottom: 15px;">
+
+Mochten er vragen zijn, laat het vooral weten!
+
+</h3>
+
+<br>
+
+<h3 style="margin-bottom: 10px;">
+
+Stijn Peeters
+
+</h3>
+
+<h4 style="margin-bottom: 5px;">
+
+PhD kandidaat
+
+</h4>
+
+<h4 style="margin-bottom: 5px;">
+
+Erasmus School of Health Policy & Management
+
+</h4>
+
+<p>
+
+<i class="fas fa-envelope"></i> <strong>Email:</strong> s.b.peeters\@eshpm.eur.nl<br> <i class="fas fa-phone"></i> <strong>Phone:</strong> +316 34404346<br>
