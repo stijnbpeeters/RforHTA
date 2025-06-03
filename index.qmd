@@ -76,6 +76,22 @@ css: styles.css
 :::
 :::
 
+## 🧠 What is the MHQoL?
+
+-   A 7-item questionnaire for mental health-related quality of life
+
+-   Includes a Visual Analogue Scale (VAS) for overall mental well-being
+
+**💡 Why use it — especially next to the EQ-5D?**
+
+-   The EQ-5D focuses primarily on physical health
+
+-   MHQoL captures additional aspects such as mood, relationships, and future outlook
+
+-   Offers a more complete picture of wellbeing in mental health populations
+
+-   Supports richer outcome measurement in evaluations and research
+
 ## ⚙️ Recalculate Scores Using the MHQoL Package
 
 -   🗂️ Contains 8 function, **highlight two**:
@@ -481,4 +497,4 @@ summary(model1)
 
 ## Any Questions?
 
-![](data/compiling.png)
+*The MHQoL R package and Shiny app streamline scoring, reduce manual errors, and make validated mental health quality of life measurement more accessible and reproducible.* 
